@@ -30,7 +30,7 @@ body{
 
 .mainheader{
 
-    background-image: url("./../images/people/flower.jpg");
+    background-image: url("./../images/universe.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -89,27 +89,27 @@ body{
     box-sizing: border-box;
     color: lightcoral;
     padding: .25em 0;
+
+
 }
 .main-footer-container{
     display: flex;
     align-items: center;
     
+    
 }
-.main-footer-container ul{
+.main-footer-container ul {
     flex-grow: 1;
     text-align: end;
 }
 
 
 
-.footer-nav li{
+.footer-nav li {
     padding: 0 .5em;
 }
-footer.nav {
-    width: 15px;
-    height: 30px;
-}
-footer.nav img{
+
+.footer-nav img {  
     width: 30px;
     height: 30px;
 }
@@ -122,9 +122,9 @@ footer.nav img{
 
 .btn-header{
     margin: .5em 15% 2em 15%;
-    color: white;
+    color: black;
     border: 2px solid #2D9CDB;
-    background-color: rgb(216, 186, 186);
+    background-color: blue (216, 186, 186);
  border-radius: 0;
  font-size: 1.5em;
  font-weight: lighter;
@@ -288,7 +288,7 @@ cart-row:last-child  .cart-column{
     border:none;
 }
 .cart-total{
-    text-align: end;
+    text-align:right;
     margin-top: 10px;
     margin-right: 10px;
 }
