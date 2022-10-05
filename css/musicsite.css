@@ -49,7 +49,7 @@ body{
 .band-name{
     text-align:center ;
     margin: 0;
-    font-size: 4em;
+    font-size: 2em;
     font-family: 'Jost';
     color: goldenrod;
 
@@ -281,6 +281,7 @@ body{
     margin-right: 25px;
 }
 .cart-row:last-child{
+    border: none;
     border-bottom: 1px solid  black;
 }
 
